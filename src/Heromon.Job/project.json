@@ -1,0 +1,24 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "Heromon.Job Console Application",
+	"authors": [ "aquila" ],
+	"tags": [ "" ],
+	"projectUrl": "",
+	"licenseUrl": "",
+	"compilationOptions": {
+		"emitEntryPoint": true
+	},
+	"dependencies": {
+		"LightInject": "4.0.6",
+		"Microsoft.Azure.WebJobs": "1.1.1",
+		"Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+		"Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
+		"Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final"
+	},
+	"commands": {
+		"Heromon.Job": "Heromon.Job"
+	},
+	"frameworks": {
+		"dnx451": { }
+	}
+}

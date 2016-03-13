@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED5EA42A-7B71-4885-8293-389A0684E1CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4806108F-E98A-4DE6-9FEA-D9E5E13EAB71}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Heromon", "src\Heromon\Heromon.xproj", "{596E349E-FBEF-4D22-8CCA-E80B6E37AB10}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Heromon.UI", "src\Heromon.UI\Heromon.UI.xproj", "{D0555BDF-2C02-4AA2-9C98-5E91FB33844F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Heromon.Job", "src\Heromon.Job\Heromon.Job.xproj", "{46699D67-898A-4DDF-B646-C27FF4737DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{596E349E-FBEF-4D22-8CCA-E80B6E37AB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596E349E-FBEF-4D22-8CCA-E80B6E37AB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596E349E-FBEF-4D22-8CCA-E80B6E37AB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596E349E-FBEF-4D22-8CCA-E80B6E37AB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0555BDF-2C02-4AA2-9C98-5E91FB33844F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0555BDF-2C02-4AA2-9C98-5E91FB33844F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0555BDF-2C02-4AA2-9C98-5E91FB33844F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0555BDF-2C02-4AA2-9C98-5E91FB33844F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46699D67-898A-4DDF-B646-C27FF4737DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46699D67-898A-4DDF-B646-C27FF4737DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46699D67-898A-4DDF-B646-C27FF4737DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46699D67-898A-4DDF-B646-C27FF4737DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{596E349E-FBEF-4D22-8CCA-E80B6E37AB10} = {ED5EA42A-7B71-4885-8293-389A0684E1CF}
+		{D0555BDF-2C02-4AA2-9C98-5E91FB33844F} = {ED5EA42A-7B71-4885-8293-389A0684E1CF}
+		{46699D67-898A-4DDF-B646-C27FF4737DB1} = {ED5EA42A-7B71-4885-8293-389A0684E1CF}
+	EndGlobalSection
+EndGlobal
