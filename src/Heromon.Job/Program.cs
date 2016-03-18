@@ -19,9 +19,12 @@ namespace Heromon.Job
 
 			JobHostConfiguration config = new JobHostConfiguration
 			{
+				StorageConnectionString = Configuration["AppSettings:StorageConnectionString"],
+				DashboardConnectionString = Configuration["AppSettings:StorageConnectionString"],
 				JobActivator = new JobActivator(container),
 				NameResolver = new NameResolver(Configuration)
 			};
+			config.UseTimers();
 
 			var host = new JobHost(config);
 			host.RunAndBlock();
